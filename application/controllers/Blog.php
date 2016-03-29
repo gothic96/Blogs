@@ -50,9 +50,9 @@ class Blog extends CI_Controller {
 
         $data['title'] = 'Create a news item';
 
-        $this->form_validation->set_rules('title', 'Title', 'required');
-        $this->form_validation->set_rules('text', 'Text', 'required');
-        $this->form_validation->set_rules('slug', 'Slug', 'required');
+        $this->form_validation->set_rules('b_title', 'Title', 'required');
+        $this->form_validation->set_rules('b_content', 'Text', 'required');
+       
 
       if ($this->form_validation->run() === FALSE)
         {

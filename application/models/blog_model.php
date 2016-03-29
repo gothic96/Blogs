@@ -35,7 +35,7 @@ class blog_model extends CI_Model {
             'b_content' => $this->input->post('b_content')
         );
 
-        return $this->db->insert('blog', $data);
+        return $this->db->insert('myblog', $data);
     }
 
 }
