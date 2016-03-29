@@ -27,12 +27,14 @@ class blog_model extends CI_Model {
     {
         $this->load->helper('url');
 
-        $slug = url_title($this->input->post('title'), 'dash', TRUE);
+        $slug = url_title($this->input->post('b_title'), 'dash', TRUE);
 
         $data = array(
             'b_title' => $this->input->post('b_title'),
             'slug' => $slug,
-            'b_content' => $this->input->post('b_content')
+            'b_content' => $this->input->post('b_content'),
+            'b_data' => $this->input->post('b_data'),
+
         );
 
         return $this->db->insert('myblog', $data);

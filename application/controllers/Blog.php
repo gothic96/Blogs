@@ -52,7 +52,7 @@ class Blog extends CI_Controller {
 
         $this->form_validation->set_rules('b_title', 'Title', 'required');
         $this->form_validation->set_rules('b_content', 'Text', 'required');
-       
+
 
       if ($this->form_validation->run() === FALSE)
         {
@@ -68,4 +68,7 @@ class Blog extends CI_Controller {
             $this->load->view('blog/success');
        }
     }
+
+
+    
 }

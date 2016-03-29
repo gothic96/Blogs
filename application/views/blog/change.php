@@ -1,9 +1,10 @@
 
+
 <h2><?php echo $title; ?></h2>
 
 <?php echo validation_errors(); ?>
 
-<?php echo form_open('blog/create'); ?>
+<?php echo form_open('blog/change'); ?>
 
 <label for="title">Title</label>
 <input type="input" name="b_title" /><br />
@@ -15,8 +16,6 @@
 <div >
     <label for="date">Date</label>
     <textarea name="b_data" value =<?php echo date("Y-m-d"); ?>></textarea><br />
-    
-</div>
-<input type="submit" name="submit" value="Create news item" />
 
-</form>
+</div>
+<input type="submit" name="submit" value="change your item" />

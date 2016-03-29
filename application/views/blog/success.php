@@ -1,8 +1,9 @@
+<html>
+<body>
 <?php
-echo "發表成功";
-/**
- * Created by PhpStorm.
- * User: xyd
- * Date: 2016/3/23
- * Time: 21:56
- */
+echo "发表成功";?>
+
+<a href="http://localhost/CodeIgniter-3.0.5/index.php/blog/">返回列表</a>
+</body>
+</html>
+
