@@ -1,5 +1,5 @@
 <h2><?php echo $title; ?></h2>
-<a href="http://localhost/CodeIgniter-3.0.5/index.php/blog/create">发表博客</a>
+<a href="create">发表博客</a>
 <?php foreach ($blogs as $blog_item): ?>
 
     <h3><?php echo $blog_item['b_title']; ?></h3>

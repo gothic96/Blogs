@@ -7,5 +7,5 @@ echo"<br>";
 ?>
 <html>
 
-<a href="http://localhost/CodeIgniter-3.0.5/index.php/blog/">返回博客列表</a><br>
+<a href="..">返回博客列表</a><br>
 </html>
