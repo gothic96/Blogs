@@ -12,11 +12,6 @@
 <textarea name="b_content"></textarea><br />
 
 
-<div >
-    <label for="date">Date</label>
-    <textarea name="b_data" value =<?php echo date("Y-m-d"); ?>></textarea><br />
-    
-</div>
 <input type="submit" name="submit" value="Create news item" />
 
 </form>

@@ -33,7 +33,7 @@ class blog_model extends CI_Model {
             'b_title' => $this->input->post('b_title'),
             'slug' => $slug,
             'b_content' => $this->input->post('b_content'),
-            'b_data' => $this->input->post('b_data'),
+            'b_data' => date("Y-m-d"),
 
         );
 
